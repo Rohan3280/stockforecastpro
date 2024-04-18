@@ -1,0 +1,19 @@
+Here is the explaination of the algorithm in simple terms:
+
+We're using historical data about stock prices to make predictions about future prices. We focus on two things: 
+1. The difference between the opening and closing prices of a stock for a day.
+2. The difference between the highest and lowest prices during that day.
+
+Here's how the algorithm works:
+
+1.>> Data Preparation: We organize the historical data into a table and calculate the differences mentioned above.
+
+2.>> Splitting Data: We divide our data into two parts: training data and testing data. Training data is used to teach the algorithm, and testing data is used to see how well it learned.
+
+3.>> Classification Model: We use a method called K-Nearest Neighbors (KNN) to predict whether the stock price will go up or down tomorrow. This method looks at similar patterns in the past and makes a guess based on what happened after those patterns.
+
+4.>> Regression Model: We use KNN again, but this time to predict exactly how much the stock price might change tomorrow.
+
+5.>> Testing the Model: We test our models using the testing data to see how accurate our predictions are.
+
+Overall, the algorithm helps investors make decisions about buying or selling stocks based on historical patterns and predictions about future stock movements.

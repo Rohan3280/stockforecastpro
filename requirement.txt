@@ -1,0 +1,10 @@
+Software Requirement:
+
+1.>> pip install matplotlib
+2.>> pip install tK
+3.>> pip install numpy
+4.>> pip install pandas
+5.>> pip install willow
+6.>> pip install scikit-learn
+7.>> pip install quandl
+8.>> Activate quandl account and generate API key
